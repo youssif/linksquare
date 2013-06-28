@@ -1,0 +1,60 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>First name:</b>
+  <%= @alum.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @alum.last_name %>
+</p>
+
+<p>
+  <b>Cohort:</b>
+  <%= @alum.cohort %>
+</p>
+
+<p>
+  <b>Linkedin url:</b>
+  <%= @alum.linkedin_url %>
+</p>
+
+<p>
+  <b>Twitter handle:</b>
+  <%= @alum.twitter_handle %>
+</p>
+
+<p>
+  <b>Github link:</b>
+  <%= @alum.github_link %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @alum.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @alum.state %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @alum.title %>
+</p>
+
+<p>
+  <b>Picture:</b>
+  <%= @alum.picture %>
+</p>
+
+<p>
+  <b>Expertise:</b>
+  <%= @alum.expertise %>
+</p>
+
+
+<%= link_to 'Edit', edit_alum_path(@alum) %> |
+<%= link_to 'Back', alums_path %>
