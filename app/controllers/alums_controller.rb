@@ -15,6 +15,8 @@ class AlumsController < ApplicationController
   def show
     @alum = Alum.find(params[:id])
 
+    flash[:notice] = 'Testing the flash message.'
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @alum }

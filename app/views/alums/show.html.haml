@@ -1,0 +1,60 @@
+%p#notice=notice
+
+%p
+  %strong  First name:
+  = @alum.first_name
+
+%p
+  %strong Last name:
+  = @alum.last_name 
+
+
+%p
+  %strong Cohort:
+  = @alum.cohort 
+
+
+%p
+  %strong Linkedin url:
+  = @alum.linkedin_url 
+
+
+%p
+  %strong Twitter handle:
+  = @alum.twitter_handle 
+
+
+%p
+  %strong Github link:
+  = @alum.github_link 
+
+
+%p
+  %strong City:
+  = @alum.city 
+
+
+%p
+  %strong State:
+  = @alum.state 
+
+
+%p
+  %strong Title:
+  = @alum.title 
+
+
+%p
+  %strong Picture:
+  = @alum.picture 
+
+
+%p
+  %strong Expertise:
+  = @alum.expertise 
+
+
+
+= link_to 'Edit', edit_alum_path(@alum)  |
+= link_to 'Back', alums_path 
+  
